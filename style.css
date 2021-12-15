@@ -215,7 +215,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "quem sou eu";
+    content: "about";
 }
 .about .about-content .left{
     width: 45%;
@@ -269,7 +269,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "o que eu forneço";
+    content: "services";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -306,7 +306,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "o que conheço";
+    content: "skills";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -388,7 +388,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "quem está comigo";
+    content: "projects";
 }
 .teams .carousel .card{
     background: #222;
@@ -452,7 +452,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "fale comigo";
+    content: "contact me";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -692,5 +692,13 @@ footer span a:hover{
     border-radius: 2rem;
     box-shadow: 7px 5px 5px 5px black;
 }
-
+#fullstackhref{
+    text-decoration: none;
+    color: crimson;
+    font-weight: bold;
+    
+}
+#fullstackhref:hover{
+    color: black;
+}
 
